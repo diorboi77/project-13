@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+main div{
+    display: inline-flex;
+    color: aqua;
+    padding: 15px;
+}
+main>div{
+    background-color: black;
+}
+main>div>div{
+    background-color: #3e3b3b;
+}
+main>div>div>div{
+    background-color: #665959;
+}
+.px1{
+    font-size: 15px;
+}
+.px2{
+    font-size: 24px;
+}
+.px3{
+    font-size: 32pz;
+}
+.em1{
+    font-size: 1em;
+}
+.em2{
+    font-size: 1.5em;
+}
+.em3{
+    font-size: 2em;
+}
+.sem1{
+    font-size: 16px;
+}
+.sem2{
+    font-size: 1.5em;
+}
+.sem3{
+    font-size: 2em;
+}
+.rem1{
+    font-size: 1rem;
+}
+.rem2{
+    font-size: 1.5rem;
+}
+.rem3{
+    font-size: 2rem;
+}
+.p1{
+    width: 80%;
+    height: 200px;
+}
+.p2{
+    width: 80%;
+    height: 70%;
+}
+.p3{
+    width: 80%;
+    height: 40%;
+}
+.v1{
+    max-width: 1000px;
+    height: 400px;
+}
+.v2{
+    width: 30vw;
+    height: 30vh;
+}
+.v3{
+    width: 50vw;
+    height: 20vh;
+}
